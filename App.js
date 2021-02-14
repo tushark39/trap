@@ -79,6 +79,8 @@ import { createStackNavigator } from '@react-navigation/stack';
 import Main from './Screen/Main'
 import AP from './Screen/AP'
 import liveDemoAp from './Screen/liveDemoAp'
+import LogicGateOption from './Screen/LogicGateOptions'
+import AndGateScreen from './Screen/AndGateScreen'
 
 const Stack = createStackNavigator();
 function App() {
@@ -90,6 +92,8 @@ function App() {
         <Stack.Screen name="Home" component={Main} />
         <Stack.Screen name="learnMaths" component={AP} />
         <Stack.Screen name="liveDemoAp" component={liveDemoAp} />
+        <Stack.Screen name="LogicGateOption" component={LogicGateOption} />
+        <Stack.Screen name="AndGateScreen" component={AndGateScreen} />
       </Stack.Navigator>
     </NavigationContainer>
   );

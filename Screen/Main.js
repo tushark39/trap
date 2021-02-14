@@ -4,13 +4,20 @@ import { Text, View, StyleSheet, Button,ImageBackground,TouchableOpacity,Image }
 import AudioComp from '../Helper/Audo'
 import Ap from '../assets/Ap.png'
 import LogicGate from '../assets/logicGate.png'
+import trap from '../assets/TRAP.png'
 const Main=({ navigation })=> {
   const [count, setCount] = React.useState(0);
   const onPress = () => setCount(prevCount => prevCount + 1);
   return (
     <View style={styles.container}>
       <ImageBackground source={require('../assets/bg.jpg')} style={styles.image}>
-      <Text style={styles.textHeading}>TRAP</Text>
+      {/* <Text style={styles.textHeading}>TRAP</Text> */}
+      <View style={{alignItems:"center",marginTop:30}}>
+                   <Image
+                    style={{height:250,width:280,alignItems:"center"}}
+                        source={trap}
+                    />
+                   </View>
       <View style={styles.GameOptions}>
         {/* <Text style={{fontSize:20}}>test</Text> */}
       <TouchableOpacity
@@ -25,7 +32,7 @@ const Main=({ navigation })=> {
       </TouchableOpacity>
       <TouchableOpacity
         style={styles.button}
-        onPress={onPress}
+        onPress={()=>navigation.navigate('LogicGateOption')}
       >
       <Image
       style={{height:150,width:150,marginTop:15}}
@@ -58,7 +65,7 @@ const styles = StyleSheet.create({
     textAlign: 'center',
   },
   GameOptions:{
-    marginTop:100,
+    marginTop:20,
     alignItems: 'center',
   },
   button: {
