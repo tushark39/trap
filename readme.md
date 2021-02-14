@@ -80,7 +80,7 @@ Now open your Forked Repository and make a **Pull Request** with discription aft
 
 ## Contributors
 
-[TUSHAR](https://www.linkedin.com/in/tushark39/)
-[PRIYANSHU PATEL](https://www.linkedin.com/in/priyanshu-patel-hawk/)
-[ROSHAN BISHI](https://www.linkedin.com/in/roshanbishi1115/)
-[ANIKET SHARMA](https://www.linkedin.com/in/aniket-sharma-2541a71ba/)
+##### [TUSHAR](https://www.linkedin.com/in/tushark39/) 
+##### [PRIYANSHU PATEL](https://www.linkedin.com/in/priyanshu-patel-hawk/)
+##### [ROSHAN BISHI](https://www.linkedin.com/in/roshanbishi1115/)
+##### [ANIKET SHARMA](https://www.linkedin.com/in/aniket-sharma-2541a71ba/)
