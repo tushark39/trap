@@ -30,7 +30,7 @@ const OldMethodSn=()=>{
                 When we are required to find Sum upto n natural numbers. we'll add them one by one like 1+2+3+4+5+....+n and get the SUM at the end.
                 Now let's see how many steps we've encountered so far for finding 
                         <Text style={{ fontSize: 20, lineHeight: 22 }}>
-                    S
+                    &nbsp;S
                             <Text style={{ fontSize: 20 / 1.6, lineHeight: 22 * 1.1, textAlignVertical: 'top' }}>
                         n&nbsp;
                              </Text>

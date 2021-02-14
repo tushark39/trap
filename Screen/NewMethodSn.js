@@ -33,11 +33,11 @@ const NewMethodSn = () => {
             <Text style={{ fontSize: 20, marginLeft: 20 }}>New Method to Caluclate Sum :-</Text>
             <Text style={{ fontSize: 16, marginLeft: 20, marginTop: 10 }}>
                 When we are required to find Sum upto n natural number we add one by one like 1+2+3+4+5+....+n and get the answer.
-                But in this Method, no matter how big the n<sup>th</sup> Value is. We can able to find it in One single step&nbsp;
+                But in this Method, no matter how big the <Text style={{fontWeight:"bold"}}>n</Text><Text style={{fontSize:20}}>th</Text> Value is. We can able to find it in One single step&nbsp;
                 <Text style={{ fontSize: 20, lineHeight: 22 }}>
-                S
+                    S
                 <Text style={{ fontSize: 20 / 1.6, lineHeight: 22 * 1.1, textAlignVertical: 'top' }}>
-                n&nbsp;
+                        n&nbsp;
                 </Text>
                 </Text>
                                 (Sum upto n from 0)
@@ -61,7 +61,7 @@ const NewMethodSn = () => {
             </View>
             <View>
                 {
-                   newdMethodData.sum!=0 &&  <View>
+                    newdMethodData.sum != 0 && <View>
                         <Text style={{ fontSize: 16, marginLeft: 20, marginTop: 20 }}>
                             <Text style={{ fontSize: 20, lineHeight: 22 }}>
                                 S
