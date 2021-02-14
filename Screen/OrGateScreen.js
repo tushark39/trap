@@ -11,8 +11,8 @@ const OrGateScreen = ({ navigation }) => {
     const [button_1,setFirstButton]=React.useState(0)
     const [button_2,setSecondButton]=React.useState(0)
     return (
-        // <View style={{}}
-        <View style={styles.container}>
+        <ScrollView>
+               <View style={styles.container}>
             <ImageBackground source={require('../assets/bg.jpg')} style={styles.image}>
                 {/* <Text style={styles.textHeading}>TRAP</Text> */}
                 <View style={{ alignItems: "center", marginTop: 40 }}>
@@ -59,7 +59,8 @@ const OrGateScreen = ({ navigation }) => {
      </ImageBackground>
             <StatusBar style="dark" backgroundColor="#129cf3" />
         </View>
-        // </View>
+      
+        </ScrollView>
     );
 }
 const styles = StyleSheet.create({

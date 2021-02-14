@@ -1,9 +1,9 @@
 import { StatusBar } from 'expo-status-bar';
 import * as React from 'react';
 import { Text, View, StyleSheet, Button,ImageBackground,TouchableOpacity,Image ,ScrollView} from 'react-native';
-import AudioComp from '../Helper/Audo'
-import Ap from '../assets/Ap.png'
-import LogicGate from '../assets/logicGate.png'
+// import AudioComp from '../Helper/Audo'
+// import Ap from '../assets/Ap.png'
+// import LogicGate from '../assets/logicGate.png'
 import trap from '../assets/TRAP.png'
 
 const AP=({ navigation })=> {
@@ -62,6 +62,7 @@ const styles = StyleSheet.create({
   GameOptions:{
     marginTop:0,
     // alignItems: 'center',
+    marginBottom:130
   },
   button: {
     alignItems: "center",

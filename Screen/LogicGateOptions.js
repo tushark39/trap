@@ -13,8 +13,8 @@ const LogicGateOption = ({ navigation }) => {
     const [count, setCount] = React.useState(0);
     const onPress = () => setCount(prevCount => prevCount + 1);
     return (
-        // <View style={{}}>
-        <View style={styles.container}>
+        <ScrollView>
+                    <View style={styles.container}>
             <ImageBackground source={require('../assets/bg.jpg')} style={styles.image}>
                 {/* <Text style={styles.textHeading}>TRAP</Text> */}
                 <View style={{ alignItems: "center", marginTop: 40 }}>
@@ -30,7 +30,7 @@ const LogicGateOption = ({ navigation }) => {
                         onPress={() => navigation.navigate('AndGateScreen')}
                     >
                         <Image
-                            style={{ height: 50, width: 90 }}
+                            style={{ height: 60, width: 90 }}
                             source={andGate}
                         />
                         <Text style={{ marginTop: 15, color: "#fff" }}>Visualise AND Gate</Text>
@@ -69,8 +69,9 @@ const LogicGateOption = ({ navigation }) => {
             </ImageBackground>
             <StatusBar style="dark" backgroundColor="#129cf3" />
         </View>
-        // </View>
-    );
+  
+        </ScrollView>
+  );
 }
 const styles = StyleSheet.create({
     container: {

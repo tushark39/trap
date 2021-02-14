@@ -6,15 +6,13 @@ import Ap from '../assets/Ap.png'
 import LogicGate from '../assets/logicGate.png'
 import trap from '../assets/TRAP.png'
 import andBG from '../assets/andBG.png'
-import Button1 from '../assets/Button1.png'
-import Button0 from '../assets/Button0.png'
 
 const AndGateScreen = ({ navigation }) => {
     const [button_1,setFirstButton]=React.useState(0)
     const [button_2,setSecondButton]=React.useState(0)
     return (
-        // <View style={{}}
-        <View style={styles.container}>
+       <ScrollView>
+             <View style={styles.container}>
             <ImageBackground source={require('../assets/bg.jpg')} style={styles.image}>
                 {/* <Text style={styles.textHeading}>TRAP</Text> */}
                 <View style={{ alignItems: "center", marginTop: 40 }}>
@@ -61,7 +59,8 @@ const AndGateScreen = ({ navigation }) => {
      </ImageBackground>
             <StatusBar style="dark" backgroundColor="#129cf3" />
         </View>
-        // </View>
+       
+       </ScrollView>
     );
 }
 const styles = StyleSheet.create({

@@ -1,6 +1,6 @@
 import { StatusBar } from 'expo-status-bar';
 import * as React from 'react';
-import { Text, View, StyleSheet, Button,ImageBackground,TouchableOpacity,Image } from 'react-native';
+import { Text, View, StyleSheet, Button,ImageBackground,TouchableOpacity,Image, ScrollView } from 'react-native';
 import AudioComp from '../Helper/Audo'
 import Ap from '../assets/Ap.png'
 import LogicGate from '../assets/logicGate.png'
@@ -9,7 +9,8 @@ const Main=({ navigation })=> {
   const [count, setCount] = React.useState(0);
   const onPress = () => setCount(prevCount => prevCount + 1);
   return (
-    <View style={styles.container}>
+    <ScrollView>
+        <View style={styles.container}>
       <ImageBackground source={require('../assets/bg.jpg')} style={styles.image}>
       {/* <Text style={styles.textHeading}>TRAP</Text> */}
       <View style={{alignItems:"center",marginTop:30}}>
@@ -45,6 +46,8 @@ const Main=({ navigation })=> {
       </ImageBackground>
       <StatusBar style="dark" backgroundColor="#129cf3"/>
     </View>
+  
+    </ScrollView>
   );
 }
 const styles = StyleSheet.create({
@@ -67,6 +70,7 @@ const styles = StyleSheet.create({
   GameOptions:{
     marginTop:20,
     alignItems: 'center',
+    marginBottom:140
   },
   button: {
     alignItems: "center",
