@@ -46,7 +46,7 @@ const OldMethodSn=()=>{
                     value={numberEntered}
                 />
                 <TouchableOpacity
-                    onPress={() => itretiveMethodSn(numberEntered)}
+                    onPress={async() => await itretiveMethodSn(numberEntered)}
                 >
                     <Text
                         style={{ fontSize: 16, marginLeft: 20, marginTop: 10, padding: 10, width: 100, backgroundColor: "blue", borderRadius: 50, textAlign: "center" }}

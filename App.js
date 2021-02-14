@@ -81,6 +81,9 @@ import AP from './Screen/AP'
 import liveDemoAp from './Screen/liveDemoAp'
 import LogicGateOption from './Screen/LogicGateOptions'
 import AndGateScreen from './Screen/AndGateScreen'
+import OrGateScreen from './Screen/OrGateScreen'
+import XorGateScreen from './Screen/XorGateScreen'
+import NorGateScreen from './Screen/NorGateScreen'
 
 const Stack = createStackNavigator();
 function App() {
@@ -94,6 +97,9 @@ function App() {
         <Stack.Screen name="liveDemoAp" component={liveDemoAp} />
         <Stack.Screen name="LogicGateOption" component={LogicGateOption} />
         <Stack.Screen name="AndGateScreen" component={AndGateScreen} />
+        <Stack.Screen name="OrGateScreen" component={OrGateScreen} />
+        <Stack.Screen name="XorGateScreen" component={XorGateScreen} />
+        <Stack.Screen name="NorGateScreen" component={NorGateScreen} />
       </Stack.Navigator>
     </NavigationContainer>
   );

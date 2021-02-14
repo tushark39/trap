@@ -5,11 +5,9 @@ import AudioComp from '../Helper/Audo'
 import Ap from '../assets/Ap.png'
 import LogicGate from '../assets/logicGate.png'
 import trap from '../assets/TRAP.png'
-import andBG from '../assets/andBG.png'
-import Button1 from '../assets/Button1.png'
-import Button0 from '../assets/Button0.png'
+import XorBG from '../assets/XorBG.png'
 
-const AndGateScreen = ({ navigation }) => {
+const XOrGateScreen = ({ navigation }) => {
     const [button_1,setFirstButton]=React.useState(0)
     const [button_2,setSecondButton]=React.useState(0)
     return (
@@ -24,14 +22,14 @@ const AndGateScreen = ({ navigation }) => {
                     />
                 </View>
                 <View style={styles.GameOptions}>
-                <View style={{backgroundColor:button_1&&button_2 ? "green" : "red",paddingTop:20,paddingBottom:20,paddingLeft:60,paddingRight:60}}>
+                <View style={{backgroundColor:button_1^button_2 ? "green" : "red",paddingTop:20,paddingBottom:20,paddingLeft:60,paddingRight:60}}>
                     <Text style={{color:"#fff",fontSize:30}}>
-                        {button_1&&button_2 ? "True" : "False"}
+                        {button_1^button_2 ? "True" : "False"}
                     </Text>
                 </View>
                     <Image
                         style={{height:250,width:200}}
-                        source={andBG}
+                        source={XorBG}
                     />
                 </View>
                 <View style={{flexDirection:"row"}}>
@@ -93,4 +91,4 @@ const styles = StyleSheet.create({
         paddingRight: 40
     },
 });
-export default AndGateScreen
+export default XOrGateScreen

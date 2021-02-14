@@ -37,7 +37,7 @@ const LogicGateOption = ({ navigation }) => {
                     </TouchableOpacity>
                     <TouchableOpacity
                         style={styles.button}
-                        onPress={() => { }}
+                        onPress={() => navigation.navigate('OrGateScreen')}
                     >
                         <Image
                             style={{ height: 50, width: 90 }}
@@ -47,7 +47,7 @@ const LogicGateOption = ({ navigation }) => {
                     </TouchableOpacity>
                     <TouchableOpacity
                         style={styles.button}
-                        onPress={() => { }}
+                        onPress={() => navigation.navigate('XorGateScreen')}
                     >
                         <Image
                             style={{ height: 50, width: 90 }}
@@ -57,7 +57,7 @@ const LogicGateOption = ({ navigation }) => {
                     </TouchableOpacity>
                     <TouchableOpacity
                         style={styles.button}
-                        onPress={() => { }}
+                        onPress={() => navigation.navigate('NorGateScreen')}
                     >
                         <Image
                             style={{ height: 50, width: 90 }}
