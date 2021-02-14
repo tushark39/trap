@@ -27,8 +27,8 @@ const OldMethodSn=()=>{
         <View style={{marginBottom:20}}>
             <Text style={{ fontSize: 20, marginLeft: 20 }}>Old Method to Caluclate Sum :-</Text>
             <Text style={{ fontSize: 16, marginLeft: 20, marginTop: 10 }}>
-                When we are required to find Sum upto n natural number we add one by one like 1+2+3+4+5+....+n and get the answer.
-                Now here we will see how many steps will we encounter for finding
+                When we are required to find Sum upto n natural numbers. we'll add them one by one like 1+2+3+4+5+....+n and get the SUM at the end.
+                Now let's see how many steps we've encountered so far for finding 
                         <Text style={{ fontSize: 20, lineHeight: 22 }}>
                     S
                             <Text style={{ fontSize: 20 / 1.6, lineHeight: 22 * 1.1, textAlignVertical: 'top' }}>
@@ -79,5 +79,6 @@ const OldMethodSn=()=>{
 
     )
 }
+
 
 export default OldMethodSn
