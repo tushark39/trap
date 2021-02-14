@@ -21,6 +21,7 @@ const OldMethodSn=()=>{
             count:counting,
             time:end-start
         })
+        // setCal(false)
     }
     return (
         <View style={{marginBottom:20}}>
@@ -46,7 +47,12 @@ const OldMethodSn=()=>{
                     value={numberEntered}
                 />
                 <TouchableOpacity
-                    onPress={async() => await itretiveMethodSn(numberEntered)}
+                    onPress={async() => 
+                    {
+                        itretiveMethodSn(numberEntered)
+
+                    }
+                    }
                 >
                     <Text
                         style={{ fontSize: 16, marginLeft: 20, marginTop: 10, padding: 10, width: 100, backgroundColor: "blue", borderRadius: 50, textAlign: "center" }}
