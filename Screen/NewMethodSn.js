@@ -11,7 +11,7 @@ const NewMethodSn = () => {
         let start = new Date().getSeconds()
         let mid_val;
         let sumation = 0
-        val = parseInt(numberEntered)
+        let val = parseInt(numberEntered)
         mid_val = parseInt(val / 2);
         if ((val % 2) != 0) {
             sumation = (val + 1) * (mid_val) + (mid_val + 1)
@@ -33,7 +33,7 @@ const NewMethodSn = () => {
             <Text style={{ fontSize: 20, marginLeft: 20 }}>New Method to Caluclate Sum :-</Text>
             <Text style={{ fontSize: 16, marginLeft: 20, marginTop: 10 }}>
                 When we are required to find Sum upto n natural number we add one by one like 1+2+3+4+5+....+n and get the answer.
-                Now here we will see how many steps will we encounter for finding
+                But in this Method, no matter how big the n<sup>th</sup> Value is. We can able to find it in One single step&nbsp;
                 <Text style={{ fontSize: 20, lineHeight: 22 }}>
                 S
                 <Text style={{ fontSize: 20 / 1.6, lineHeight: 22 * 1.1, textAlignVertical: 'top' }}>
