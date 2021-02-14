@@ -21,6 +21,24 @@ This is the first prototype pushed as per the guideline of indubateIND and we ar
     - OrGateScreen.js
     - XorGateScreen.js
     - NorGateScreen.js
+  - Assets:-
+    - adaptive-icon.png
+    - andBG.png
+    - andGate.png
+    - Ap.png
+    - bg.jpg
+    - favicon.png
+    - icon.png
+    - logicGate.png
+    - norGate.png
+    - orBG.png
+    - orGate.png
+    - splash.png
+    - TRAP.png
+    - XorBG.png
+    - xorGate.png
+- package.json
+- readme.md 
 > This app (game) is comprises of several sub-games 
 > which contain the concept of programming, logic building  
 > and the integration of maths which will allow the young youth
@@ -34,7 +52,7 @@ Technology used to develop the Prototype App :-
 ![ReadMe Card](https://github-readme-stats.vercel.app/api/pin/?username=tushark39&repo=trap)
 
 * [React Native](https://reactnative.dev/) - An open-source mobile application framework
-* [node.js] - evented I/O for the backend
+* [node.js](nodejs.org) - evented I/O for the backend
 * [Expo](https://expo.io/) - a command line app that is the main interface between a developer and Expo tools
 
 
