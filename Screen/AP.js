@@ -15,10 +15,10 @@ const AP=({ navigation })=> {
       <View style={styles.GameOptions}>
         <Text style={{fontSize:20,marginLeft:20}} onPress={navigation.goBack}>Explaination :-</Text>
         <Text style={{fontSize:20,marginLeft:20,marginTop:10,fontFamily:"serif"}}>
-        Lets have example for two girl radheeka and anisha and give them a task to find the total sum whole 10 numbers starting from 1 to 10.
-        Radheeka started counting the addition from 1 took almost a minute to answer which is “55”.
-        In the other hand anisha smartly know a formula in AP that is n*(n+1)/2 and found the value in just 10 seconds. 
-        Here we can say the time complexity of anisha is much faster i.E, 10 sec than the radheeka’s time complexity i.E, 1 min. 
+        Lets have example for two girl Diya and Anisha and give them a task to find the total sum whole 10 numbers starting from 1 to 10.
+        Diya started counting the addition from 1 took almost a minute to answer which is “55”.
+        In the other hand Anisha smartly know a formula in AP that is n*(n+1)/2 and found the value in just 10 seconds. 
+        Here we can say the time complexity of Anisha is much faster i.E, 10 sec than the radheeka’s time complexity i.E, 1 min. 
         In programming same logic is applied the only difference is the above paragraph is a real life example which is designed in our app
         </Text>
         <TouchableOpacity style={{marginTop:30,alignItems:"center",marginBottom:40}} onPress={() => navigation.navigate('liveDemoAp')}>
