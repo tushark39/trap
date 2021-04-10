@@ -6,39 +6,7 @@ At the present moment, this prototype have two main topic first is the mathemati
 
 This is the first prototype pushed as per the guideline of indubateIND and we are continuously working to bring more features and options in future updates.
 
-# The contents of our project directory
 
-  TRAP:-
-  - App.js 
-  - Screen:-
-    - Main.js
-    - Ap.js
-    - LiveDemoAp.js
-    - OldMethodSn.js
-    - NewMethodSn.js
-    - LogicGateOption.js
-    - AndGateScreen.js
-    - OrGateScreen.js
-    - XorGateScreen.js
-    - NorGateScreen.js
-  - Assets:-
-    - adaptive-icon.png
-    - andBG.png
-    - andGate.png
-    - Ap.png
-    - bg.jpg
-    - favicon.png
-    - icon.png
-    - logicGate.png
-    - norGate.png
-    - orBG.png
-    - orGate.png
-    - splash.png
-    - TRAP.png
-    - XorBG.png
-    - xorGate.png
-- package.json
-- readme.md 
 > This app (game) is comprises of several sub-games 
 > which contain the concept of programming, logic building  
 > and the integration of maths which will allow the young youth
